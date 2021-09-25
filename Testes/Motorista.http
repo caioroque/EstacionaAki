@@ -3,7 +3,7 @@ POST https://localhost:5001/ESTACIONAAKI/motorista/create
 Content-Type: application/json
 
 {
-    "NomeMotorista" : "oooo"
+    "NomeMotorista" : "Caio"
 }
 
 ### Listar todos os motoristas
