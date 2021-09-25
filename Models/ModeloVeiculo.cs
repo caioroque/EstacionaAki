@@ -2,6 +2,7 @@ namespace EstacionaAki.Models
 {
     public class ModeloVeiculo
     {
-        private string Nome { get; set; }
+        public int Id { get; set; }
+        public string Nome { get; set; }
     }
 }

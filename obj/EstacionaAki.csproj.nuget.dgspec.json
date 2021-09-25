@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\caio_\\Desktop\\EstacioneAki\\EstacionaAki\\EstacionaAki\\EstacionaAki.csproj": {}
+    "C:\\Users\\caio_\\Desktop\\EstacioneAki\\EstacionaAki\\EstacionaAki.csproj": {}
   },
   "projects": {
-    "C:\\Users\\caio_\\Desktop\\EstacioneAki\\EstacionaAki\\EstacionaAki\\EstacionaAki.csproj": {
+    "C:\\Users\\caio_\\Desktop\\EstacioneAki\\EstacionaAki\\EstacionaAki.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\caio_\\Desktop\\EstacioneAki\\EstacionaAki\\EstacionaAki\\EstacionaAki.csproj",
+        "projectUniqueName": "C:\\Users\\caio_\\Desktop\\EstacioneAki\\EstacionaAki\\EstacionaAki.csproj",
         "projectName": "EstacionaAki",
-        "projectPath": "C:\\Users\\caio_\\Desktop\\EstacioneAki\\EstacionaAki\\EstacionaAki\\EstacionaAki.csproj",
+        "projectPath": "C:\\Users\\caio_\\Desktop\\EstacioneAki\\EstacionaAki\\EstacionaAki.csproj",
         "packagesPath": "C:\\Users\\caio_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\caio_\\Desktop\\EstacioneAki\\EstacionaAki\\EstacionaAki\\obj\\",
+        "outputPath": "C:\\Users\\caio_\\Desktop\\EstacioneAki\\EstacionaAki\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\caio_\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -38,7 +38,7 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
               "version": "[5.0.10, )"
             },

@@ -39,6 +39,18 @@
           "lib/netstandard2.0/_._": {}
         }
       },
+      "Microsoft.EntityFrameworkCore.InMemory/5.0.10": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.10"
+        },
+        "compile": {
+          "lib/netstandard2.1/Microsoft.EntityFrameworkCore.InMemory.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.EntityFrameworkCore.InMemory.dll": {}
+        }
+      },
       "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
         "type": "package",
         "build": {
@@ -278,6 +290,20 @@
         "lib/netstandard2.0/_._",
         "microsoft.entityframeworkcore.analyzers.5.0.10.nupkg.sha512",
         "microsoft.entityframeworkcore.analyzers.nuspec"
+      ]
+    },
+    "Microsoft.EntityFrameworkCore.InMemory/5.0.10": {
+      "sha512": "iexHF3ucf41N1he+ECHo7O8kS/DGtvW1aZB0VWBd4yH+KdFBekS0a411mTngfmfo6iO0FQkUPMiE5+U3qaldEQ==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.inmemory/5.0.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netstandard2.1/Microsoft.EntityFrameworkCore.InMemory.dll",
+        "lib/netstandard2.1/Microsoft.EntityFrameworkCore.InMemory.xml",
+        "microsoft.entityframeworkcore.inmemory.5.0.10.nupkg.sha512",
+        "microsoft.entityframeworkcore.inmemory.nuspec"
       ]
     },
     "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
@@ -704,7 +730,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Microsoft.EntityFrameworkCore >= 5.0.10",
+      "Microsoft.EntityFrameworkCore.InMemory >= 5.0.10",
       "Swashbuckle.AspNetCore >= 5.6.3"
     ]
   },
@@ -714,11 +740,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\caio_\\Desktop\\EstacioneAki\\EstacionaAki\\EstacionaAki\\EstacionaAki.csproj",
+      "projectUniqueName": "C:\\Users\\caio_\\Desktop\\EstacioneAki\\EstacionaAki\\EstacionaAki.csproj",
       "projectName": "EstacionaAki",
-      "projectPath": "C:\\Users\\caio_\\Desktop\\EstacioneAki\\EstacionaAki\\EstacionaAki\\EstacionaAki.csproj",
+      "projectPath": "C:\\Users\\caio_\\Desktop\\EstacioneAki\\EstacionaAki\\EstacionaAki.csproj",
       "packagesPath": "C:\\Users\\caio_\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\caio_\\Desktop\\EstacioneAki\\EstacionaAki\\EstacionaAki\\obj\\",
+      "outputPath": "C:\\Users\\caio_\\Desktop\\EstacioneAki\\EstacionaAki\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\caio_\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -745,7 +771,7 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": {
+          "Microsoft.EntityFrameworkCore.InMemory": {
             "target": "Package",
             "version": "[5.0.10, )"
           },

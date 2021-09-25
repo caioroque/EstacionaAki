@@ -5,8 +5,9 @@ namespace EstacionaAki.Models
     public class ItemFaturamento
     {
         public ItemFaturamento() => Sdf = DateTime.Now;
-        private double Periodo { get; set; }
-        private double Valor { get; set; }
-        private DateTime Sdf { get; set; }
+        public int Id { get; set; }
+        public double Periodo { get; set; }
+        public double Valor { get; set; }
+        public DateTime Sdf { get; set; }
     }
 }
