@@ -1,4 +1,4 @@
-### Cadastrar um novo produto
+### Cadastrar um novo motorista
 POST https://localhost:5001/ESTACIONAAKI/motorista/create
 Content-Type: application/json
 
@@ -6,16 +6,16 @@ Content-Type: application/json
     "NomeMotorista" : "Joao"
 }
 
-### Listar todos os produtos
+### Listar todos os motoristas
 GET https://localhost:5001/ESTACIONAAKI/motorista/list
 
-### Buscar um produto pelo id
+### Buscar um motorista pelo id
 GET https://localhost:5001/ESTACIONAAKI/motorista/getbyid/1
 
 ### Deletar um produto pelo nome
 DELETE https://localhost:5001/ESTACIONAAKI/motorista/delete/Joao
 
-### Alterar um produto
+### Alterar um motorista
 PUT https://localhost:5001/ESTACIONAAKI/motorista/update
 Content-Type: application/json
 
