@@ -1,0 +1,26 @@
+### Cadastrar um novo motorista
+POST https://localhost:5001/ESTACIONAAKI/veiculo/create
+Content-Type: application/json
+
+{
+    "Placa" : "911970"
+}
+
+### Listar todos os motoristas
+GET https://localhost:5001/ESTACIONAAKI/veiculo/list
+
+### Buscar um motorista pelo id
+GET https://localhost:5001/ESTACIONAAKI/veiculo/getbyid/1
+
+### Deletar um produto pelo nome
+DELETE https://localhost:5001/ESTACIONAAKI/veiculo/delete/911970
+
+### Alterar um motorista
+PUT https://localhost:5001/ESTACIONAAKI/veiculo/update
+Content-Type: application/json
+
+{
+    "Id" : 1,
+    "Placa" : "111111"
+
+}

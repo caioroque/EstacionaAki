@@ -9,5 +9,11 @@ namespace EstacionaAki.Models
         public double Periodo { get; set; }
         public double Valor { get; set; }
         public DateTime Sdf { get; set; }
+
+        /*public override string ToString()
+		{
+			Locale.setDefault(new Locale("pt","Brazil"));
+			return "Item | Estacionou em:" + Local + "\nPlaca:" + Veiculo.Placa + "\nValor cobrado:" + Valor + "\nMotorista:" + Motorista. + "\nTempo:" + Periodo + "\tEntrada:" + DateFormat.getDateTimeInstance(DateFormat.SHORT, DateFormat.MEDIUM).format(Entrada) + "\tSaida:" + DateFormat.getDateTimeInstance(DateFormat.SHORT, DateFormat.MEDIUM).format(Saida);
+		}*/
     }
 }
