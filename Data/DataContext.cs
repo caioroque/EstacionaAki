@@ -9,7 +9,8 @@ namespace EstacionaAki.Data
         public DbSet<Veiculo> Veiculos { get; set; }
         public DbSet<Motorista> Motoristas { get; set; }
         public DbSet<ItemFaturamento> ItemFaturamentos { get; set; }
-        public DbSet<ModeloVeiculo> ModeloVeiculos { get; set; }
         public DbSet<VagaEstacionamento> Vagas { get; set; }
+        public DbSet<MarcaVeiculo> Marcas { get; set; }
+        public DbSet<ModeloVeiculo> Modelos { get; set; }
     }
 }

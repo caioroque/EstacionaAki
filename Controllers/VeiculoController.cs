@@ -71,5 +71,17 @@ namespace EstacionaAki.Controllers
             _context.SaveChanges();
             return Ok(veiculo);
         }
+
+        [HttpGet]
+        [Route("getveiculo/{name}")]
+        public IActionResult GetVeiculo([FromRoute] string placa)
+        {
+            Veiculo veiculo = _context.Veiculos.Find(placa);
+            if (veiculo == null)
+            {
+                return NotFound();
+            }
+            return Ok(veiculo);
+        }
     }
 }

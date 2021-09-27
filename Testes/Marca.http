@@ -1,0 +1,28 @@
+### Cadastrar uma nova marca
+POST https://localhost:5001/ESTACIONAAKI/marca/create
+Content-Type: application/json
+
+{
+    "nome" : "Volks"
+}
+
+### Listar todas marcas
+GET https://localhost:5001/ESTACIONAAKI/marca/list
+
+### Buscar uma marca pelo id
+GET https://localhost:5001/ESTACIONAAKI/marca/getbyid/1
+
+### Deletar uma marca pelo nome
+DELETE https://localhost:5001/ESTACIONAAKI/marca/delete/Volks
+
+### Alterar uma marca
+PUT https://localhost:5001/ESTACIONAAKI/marca/update
+Content-Type: application/json
+
+{
+    "Id" : 1,
+    "nome" : "Bolacha alterada"
+}
+
+### Listar todas marcas
+GET https://localhost:5001/ESTACIONAAKI/marca/getmodeloid/1

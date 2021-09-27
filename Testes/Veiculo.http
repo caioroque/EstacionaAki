@@ -24,3 +24,5 @@ Content-Type: application/json
     "Placa" : "111111"
 
 }
+### Listar todos os motoristas
+GET https://localhost:5001/ESTACIONAAKI/veiculo/getveiculo/911970

@@ -1,0 +1,45 @@
+### Cadastrar uma nova vaga
+POST https://localhost:5001/ESTACIONAAKI/vaga/create
+Content-Type: application/json
+
+{
+    "local" : "AA"
+}
+
+### Listar todas as vagas
+GET https://localhost:5001/ESTACIONAAKI/vaga/list
+
+### Buscar um vaga pelo id
+GET https://localhost:5001/ESTACIONAAKI/vaga/getbyid/1
+
+### Deletar uma vaga pelo id
+DELETE https://localhost:5001/ESTACIONAAKI/vaga/delete/1
+
+### Alterar uma vaga
+PUT https://localhost:5001/ESTACIONAAKI/vaga/update
+Content-Type: application/json
+
+{
+    "Id" : 2,
+    "local" : "Caio"
+}
+
+
+### Buscar 
+GET https://localhost:5001/ESTACIONAAKI/vaga/darEntrada
+Content-Type: application/json
+
+{
+    "NomeMotorista" : "Caio"
+}
+
+
+
+
+### Buscar um veiculo pela placa
+GET https://localhost:5001/ESTACIONAAKI/vaga/getveiculo
+Content-Type: application/json
+
+{
+    "Placa" : "911970"
+}
