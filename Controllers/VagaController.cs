@@ -84,13 +84,12 @@ namespace EstacionaAki.Controllers
         //buscar veiculo pela placa
         //GET: ESTACIONAAKI/vagas/darEntrada
         [HttpGet]
-        [Route("darEntrada")]
-        public IActionResult darEntrada([FromRoute] string nomemotorista, [FromRoute] Veiculo veiculo, [FromRoute] VagaEstacionamento vaga)
+        [Route("darEntrada/{id}")]
+        public IActionResult darEntrada([FromRoute] int Id)
         {
-            Motorista motorista = _context.Motoristas.Find(nomemotorista);
-            //_context.Veiculos.Find(veiculo);
-            //_context.Motoristas.Find(motorista);
-            //_context.Vagas.Find(vaga);
+            Motorista motorista = _context.Motoristas.Find(Id);
+            Veiculo veiculo = _context.Veiculos.Find(Id);
+            VagaEstacionamento vaga = _context.Vagas.Find(Id);
 
             vaga.setEntrada(new System.DateTime());
             return Ok(_context.Vagas.ToList());
@@ -139,21 +138,19 @@ namespace EstacionaAki.Controllers
 			}
 			return null;
 		}
-
-        //NÃO ESTÁ FUNCIONANDO ESSE METODO
-        //buscar veiculo pela placa
+*/
+        //buscar veiculo 
         //GET: ESTACIONAAKI/vagas/BuscarVeiculo/1
-        [Route("getveiculo/{name}")]
+        [Route("getveiculo/{id}")]
         [HttpGet]
-        public IActionResult GetVeiculo([FromRoute] string placa)
+        public IActionResult GetVeiculo([FromRoute] int id)
         {
-            //Veiculo veiculo = _context.Veiculos.FirstOrDefault(veiculo => veiculo.Placa == placa);
-            Veiculo veiculo = _context.Veiculos.Find(placa);
+            Veiculo veiculo = _context.Veiculos.Find(id);
             if (veiculo == null)
             {
                 return NotFound();
             }
             return Ok(veiculo);
-        }*/
+        }
     }
 }

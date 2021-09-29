@@ -32,3 +32,42 @@ C:\Users\caio_\Desktop\EstacioneAki\EstacionaAki\obj\Debug\net5.0\ref\EstacionaA
 C:\Users\caio_\Desktop\EstacioneAki\EstacionaAki\obj\Debug\net5.0\EstacionaAki.pdb
 C:\Users\caio_\Desktop\EstacioneAki\EstacionaAki\obj\Debug\net5.0\EstacionaAki.genruntimeconfig.cache
 C:\Users\caio_\Desktop\EstacioneAki\EstacionaAki\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\PC8\Music\Nova pasta\EstacionaAki\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\PC8\Music\Nova pasta\EstacionaAki\bin\Debug\net5.0\appsettings.json
+C:\Users\PC8\Music\Nova pasta\EstacionaAki\bin\Debug\net5.0\EstacionaAki.exe
+C:\Users\PC8\Music\Nova pasta\EstacionaAki\bin\Debug\net5.0\EstacionaAki.deps.json
+C:\Users\PC8\Music\Nova pasta\EstacionaAki\bin\Debug\net5.0\EstacionaAki.runtimeconfig.json
+C:\Users\PC8\Music\Nova pasta\EstacionaAki\bin\Debug\net5.0\EstacionaAki.runtimeconfig.dev.json
+C:\Users\PC8\Music\Nova pasta\EstacionaAki\bin\Debug\net5.0\EstacionaAki.dll
+C:\Users\PC8\Music\Nova pasta\EstacionaAki\bin\Debug\net5.0\ref\EstacionaAki.dll
+C:\Users\PC8\Music\Nova pasta\EstacionaAki\bin\Debug\net5.0\EstacionaAki.pdb
+C:\Users\PC8\Music\Nova pasta\EstacionaAki\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\PC8\Music\Nova pasta\EstacionaAki\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\PC8\Music\Nova pasta\EstacionaAki\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\PC8\Music\Nova pasta\EstacionaAki\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\PC8\Music\Nova pasta\EstacionaAki\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\PC8\Music\Nova pasta\EstacionaAki\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\PC8\Music\Nova pasta\EstacionaAki\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\PC8\Music\Nova pasta\EstacionaAki\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\PC8\Music\Nova pasta\EstacionaAki\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\PC8\Music\Nova pasta\EstacionaAki\obj\Debug\net5.0\EstacionaAki.csproj.AssemblyReference.cache
+C:\Users\PC8\Music\Nova pasta\EstacionaAki\obj\Debug\net5.0\EstacionaAki.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC8\Music\Nova pasta\EstacionaAki\obj\Debug\net5.0\EstacionaAki.AssemblyInfoInputs.cache
+C:\Users\PC8\Music\Nova pasta\EstacionaAki\obj\Debug\net5.0\EstacionaAki.AssemblyInfo.cs
+C:\Users\PC8\Music\Nova pasta\EstacionaAki\obj\Debug\net5.0\EstacionaAki.csproj.CoreCompileInputs.cache
+C:\Users\PC8\Music\Nova pasta\EstacionaAki\obj\Debug\net5.0\EstacionaAki.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\PC8\Music\Nova pasta\EstacionaAki\obj\Debug\net5.0\EstacionaAki.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\PC8\Music\Nova pasta\EstacionaAki\obj\Debug\net5.0\staticwebassets\EstacionaAki.StaticWebAssets.Manifest.cache
+C:\Users\PC8\Music\Nova pasta\EstacionaAki\obj\Debug\net5.0\staticwebassets\EstacionaAki.StaticWebAssets.xml
+C:\Users\PC8\Music\Nova pasta\EstacionaAki\obj\Debug\net5.0\scopedcss\bundle\EstacionaAki.styles.css
+C:\Users\PC8\Music\Nova pasta\EstacionaAki\obj\Debug\net5.0\EstacionaAki.RazorTargetAssemblyInfo.cache
+C:\Users\PC8\Music\Nova pasta\EstacionaAki\obj\Debug\net5.0\EstacionaAki.csproj.CopyComplete
+C:\Users\PC8\Music\Nova pasta\EstacionaAki\obj\Debug\net5.0\EstacionaAki.dll
+C:\Users\PC8\Music\Nova pasta\EstacionaAki\obj\Debug\net5.0\ref\EstacionaAki.dll
+C:\Users\PC8\Music\Nova pasta\EstacionaAki\obj\Debug\net5.0\EstacionaAki.pdb
+C:\Users\PC8\Music\Nova pasta\EstacionaAki\obj\Debug\net5.0\EstacionaAki.genruntimeconfig.cache
+C:\Users\PC8\Music\Nova pasta\EstacionaAki\bin\Debug\net5.0\FRONT\angular.json
+C:\Users\PC8\Music\Nova pasta\EstacionaAki\bin\Debug\net5.0\FRONT\package.json
+C:\Users\PC8\Music\Nova pasta\EstacionaAki\bin\Debug\net5.0\FRONT\tsconfig.app.json
+C:\Users\PC8\Music\Nova pasta\EstacionaAki\bin\Debug\net5.0\FRONT\tsconfig.json
+C:\Users\PC8\Music\Nova pasta\EstacionaAki\bin\Debug\net5.0\FRONT\package-lock.json

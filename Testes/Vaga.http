@@ -26,20 +26,8 @@ Content-Type: application/json
 
 
 ### Buscar 
-GET https://localhost:5001/ESTACIONAAKI/vaga/darEntrada
-Content-Type: application/json
-
-{
-    "NomeMotorista" : "Caio"
-}
-
-
+GET https://localhost:5001/ESTACIONAAKI/vaga/darEntrada/1
 
 
 ### Buscar um veiculo pela placa
-GET https://localhost:5001/ESTACIONAAKI/vaga/getveiculo
-Content-Type: application/json
-
-{
-    "Placa" : "911970"
-}
+GET https://localhost:5001/ESTACIONAAKI/vaga/getveiculo/1

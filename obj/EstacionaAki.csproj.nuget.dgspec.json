@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\caio_\\Desktop\\EstacioneAki\\EstacionaAki\\EstacionaAki.csproj": {}
+    "C:\\Users\\PC8\\Music\\Nova pasta\\EstacionaAki\\EstacionaAki.csproj": {}
   },
   "projects": {
-    "C:\\Users\\caio_\\Desktop\\EstacioneAki\\EstacionaAki\\EstacionaAki.csproj": {
+    "C:\\Users\\PC8\\Music\\Nova pasta\\EstacionaAki\\EstacionaAki.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\caio_\\Desktop\\EstacioneAki\\EstacionaAki\\EstacionaAki.csproj",
+        "projectUniqueName": "C:\\Users\\PC8\\Music\\Nova pasta\\EstacionaAki\\EstacionaAki.csproj",
         "projectName": "EstacionaAki",
-        "projectPath": "C:\\Users\\caio_\\Desktop\\EstacioneAki\\EstacionaAki\\EstacionaAki.csproj",
-        "packagesPath": "C:\\Users\\caio_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\caio_\\Desktop\\EstacioneAki\\EstacionaAki\\obj\\",
+        "projectPath": "C:\\Users\\PC8\\Music\\Nova pasta\\EstacionaAki\\EstacionaAki.csproj",
+        "packagesPath": "C:\\Users\\PC8\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC8\\Music\\Nova pasta\\EstacionaAki\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\caio_\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\PC8\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"

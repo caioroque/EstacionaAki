@@ -28,6 +28,15 @@ namespace EstacionaAki
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors(
+                options =>
+                {
+                    options.AddPolicy("CorsPolicy", builder => builder
+                        .AllowAnyOrigin()
+                        .AllowAnyHeader()
+                        .AllowAnyMethod());
+                }
+            );
             services.AddDbContext<DataContext>(options => options.UseInMemoryDatabase("database"));
             services.AddControllers();
             services.AddSwaggerGen(c =>
@@ -45,6 +54,8 @@ namespace EstacionaAki
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "EstacionaAki v1"));
             }
+
+            app.UseCors("CorsPolicy");
 
             app.UseHttpsRedirection();
 
