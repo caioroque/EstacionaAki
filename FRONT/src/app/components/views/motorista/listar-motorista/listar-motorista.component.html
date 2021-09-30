@@ -1,0 +1,11 @@
+<a routerLink="/motorista/cadastrar">Cadastrar Motorista</a>
+<br>
+<a routerLink="/motorista/alterar">Alterar Motorista</a>
+
+<ol>
+    <li *ngFor="let motorista of motoristas">
+        {{ motorista.nomeMotorista }}
+    </li>
+</ol>
+
+<a routerLink="/motorista/deletar">Deletar Motorista</a>

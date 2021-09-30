@@ -13,7 +13,7 @@ GET https://localhost:5001/ESTACIONAAKI/motorista/list
 GET https://localhost:5001/ESTACIONAAKI/motorista/getbyid/1
 
 ### Deletar um produto pelo nome
-DELETE https://localhost:5001/ESTACIONAAKI/motorista/delete/Joao
+DELETE https://localhost:5001/ESTACIONAAKI/motorista/delete/Caio
 
 ### Alterar um motorista
 PUT https://localhost:5001/ESTACIONAAKI/motorista/update

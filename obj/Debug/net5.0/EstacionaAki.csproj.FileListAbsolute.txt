@@ -71,3 +71,8 @@ C:\Users\PC8\Music\Nova pasta\EstacionaAki\bin\Debug\net5.0\FRONT\package.json
 C:\Users\PC8\Music\Nova pasta\EstacionaAki\bin\Debug\net5.0\FRONT\tsconfig.app.json
 C:\Users\PC8\Music\Nova pasta\EstacionaAki\bin\Debug\net5.0\FRONT\tsconfig.json
 C:\Users\PC8\Music\Nova pasta\EstacionaAki\bin\Debug\net5.0\FRONT\package-lock.json
+C:\Users\caio_\Desktop\EstacioneAki\EstacionaAki\bin\Debug\net5.0\FRONT\package-lock.json
+C:\Users\caio_\Desktop\EstacioneAki\EstacionaAki\bin\Debug\net5.0\FRONT\package.json
+C:\Users\caio_\Desktop\EstacioneAki\EstacionaAki\bin\Debug\net5.0\FRONT\tsconfig.app.json
+C:\Users\caio_\Desktop\EstacioneAki\EstacionaAki\bin\Debug\net5.0\FRONT\tsconfig.json
+C:\Users\caio_\Desktop\EstacioneAki\EstacionaAki\bin\Debug\net5.0\FRONT\angular.json
