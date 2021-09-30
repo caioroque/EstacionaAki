@@ -1,0 +1,11 @@
+<a routerLink="/veiculo/cadastrar">Cadastrar Veiculo</a>
+<br>
+<a routerLink="/veiculo/alterar">Alterar Veiculo</a>
+
+<ol>
+    <li *ngFor="let veiculo of veiculos">
+        {{ veiculo.placa }}
+    </li>
+</ol>
+
+<a routerLink="/veiculo/deletar">Deletar Veiculo</a>

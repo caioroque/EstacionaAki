@@ -9,6 +9,10 @@ import { FormsModule } from '@angular/forms';
 import { ListarMotoristaComponent } from './components/views/motorista/listar-motorista/listar-motorista.component';
 import { DeletarMotoristaComponent } from './components/views/motorista/deletar-motorista/deletar-motorista.component';
 import { AlterarMotoristaComponent } from './components/views/motorista/alterar-motorista/alterar-motorista.component';
+import { CadastrarVeiculoComponent } from './components/views/veiculo/cadastrar-veiculo/cadastrar-veiculo.component';
+import { ListarVeiculoComponent } from './components/views/veiculo/listar-veiculo/listar-veiculo.component';
+import { AlterarVeiculoComponent } from './components/views/veiculo/alterar-veiculo/alterar-veiculo.component';
+import { DeletarVeiculoComponent } from './components/views/veiculo/deletar-veiculo/deletar-veiculo.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +21,10 @@ import { AlterarMotoristaComponent } from './components/views/motorista/alterar-
     ListarMotoristaComponent,
     DeletarMotoristaComponent,
     AlterarMotoristaComponent,
+    CadastrarVeiculoComponent,
+    ListarVeiculoComponent,
+    AlterarVeiculoComponent,
+    DeletarVeiculoComponent,
   ],
   imports: [
     BrowserModule,
