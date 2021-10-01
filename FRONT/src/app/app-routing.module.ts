@@ -1,3 +1,4 @@
+import { MenuProjetoComponent } from './components/views/menu/menu-projeto/menu-projeto.component';
 import { DeletarVeiculoComponent } from './components/views/veiculo/deletar-veiculo/deletar-veiculo.component';
 import { AlterarVeiculoComponent } from './components/views/veiculo/alterar-veiculo/alterar-veiculo.component';
 import { ListarVeiculoComponent } from './components/views/veiculo/listar-veiculo/listar-veiculo.component';
@@ -45,6 +46,10 @@ const routes: Routes = [
   {
     path:"motorista/cadastrar",
     component: CadastrarMotoristaComponent,
+  },
+  {
+    path:"",
+    component: MenuProjetoComponent,
   },
 ];
 

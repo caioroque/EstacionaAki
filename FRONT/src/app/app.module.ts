@@ -13,10 +13,12 @@ import { CadastrarVeiculoComponent } from './components/views/veiculo/cadastrar-
 import { ListarVeiculoComponent } from './components/views/veiculo/listar-veiculo/listar-veiculo.component';
 import { AlterarVeiculoComponent } from './components/views/veiculo/alterar-veiculo/alterar-veiculo.component';
 import { DeletarVeiculoComponent } from './components/views/veiculo/deletar-veiculo/deletar-veiculo.component';
+import { MenuProjetoComponent } from './components/views/menu/menu-projeto/menu-projeto.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    MenuProjetoComponent,
     CadastrarMotoristaComponent,
     ListarMotoristaComponent,
     DeletarMotoristaComponent,
@@ -25,6 +27,7 @@ import { DeletarVeiculoComponent } from './components/views/veiculo/deletar-veic
     ListarVeiculoComponent,
     AlterarVeiculoComponent,
     DeletarVeiculoComponent,
+ 
   ],
   imports: [
     BrowserModule,
